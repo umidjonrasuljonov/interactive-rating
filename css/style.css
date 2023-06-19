@@ -1,0 +1,131 @@
+/* overpass-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/overpass-v12-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* overpass-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/overpass-v12-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/*  */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+html {
+  height: 100%;
+}
+ul,
+ol {
+  list-style: none;
+  padding-inline-start: 0;
+}
+a {
+  text-decoration: none;
+}
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #131518;
+}
+.container {
+  width: 100%;
+  max-width: 411px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 35px;
+}
+.main-wrapper {
+  background: radial-gradient(
+    98.96% 98.96% at 50% 0%,
+    #232a34 0%,
+    #181e27 100%
+  );
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border-radius: 30px;
+}
+.star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  background: #262e38;
+  margin-bottom: 30px;
+}
+.star-icon {
+  height: 16px;
+  width: 16.74726104736328px;
+}
+
+/*  */
+
+.main-title {
+  color: #ffffff;
+  margin-bottom: 7px;
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+}
+.main-discription {
+  font-family: "Overpass";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #969fad;
+  margin-bottom: 24px;
+}
+.sitenav-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+.sitenav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #262e38;
+
+  height: 51px;
+  width: 51px;
+  border-radius: 50%;
+}
+.sitenav-link {
+  font-family: "Overpass";
+  font-size: 16px;
+  font-weight: 700;
+
+  color: #7c8798;
+}
+.submit-button {
+  background: #fc7614;
+  border-radius: 22.5px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+
+  display: flex;
+  justify-content: center;
+}
+.button-link {
+  font-family: "Overpass";
+  font-size: 15px;
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+  color: #ffffff;
+}
